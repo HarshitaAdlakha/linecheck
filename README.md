@@ -6,6 +6,8 @@ A technician FaceTimes LineCheck with their hands still on the aircraft. LineChe
 
 Built by **Paras Adlakha** and **Harshita Adlakha** for the **Beta Fund × AWS × OpenAI Multi-Model Hackathon**, October 23, 2026.
 
+**▶ [Watch a replay of a real call](https://harshitaadlakha.github.io/linecheck/)**: the work-order board replays our recorded FaceTime demo step by step, in your browser, no setup needed.
+
 ![The LineCheck work-order board after a call](docs/board.png)
 
 *The live work-order board after a real FaceTime call: the nine-step pipeline across the top, the inspected photo and findings on the left, the draft record, manual citations, airworthiness directives and service history on the right.*
@@ -230,7 +232,7 @@ FAA.gov blocks scripted downloads, so the PDF and CSVs are downloaded in a brows
 **Requirements:** Node 22.23+ or 24 · a [LiveKit Cloud](https://cloud.livekit.io) project · an OpenAI key with Realtime access · a [Keenable](https://keenable.ai) key (optional) · a [Chert](https://www.trychert.com) project with a FaceTime line · an iPhone signed in to FaceTime and iMessage. The Chert CLI runs on macOS or Linux only; on Windows, run it in WSL Ubuntu.
 
 ```bash
-git clone https://github.com/ParasAdlakha/linecheck.git
+git clone https://github.com/HarshitaAdlakha/linecheck.git
 cd linecheck
 npm install
 cp .env.example .env.local     # add LiveKit, OpenAI and Keenable keys, and a unique AGENT_NAME
